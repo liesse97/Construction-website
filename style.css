@@ -1,0 +1,724 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none ;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    /* font-size?? take away */
+ font-size:62.5%;
+
+
+}
+/* .logo {
+    
+    background-color: #262626;
+     z-index:200;
+}
+.menu-icon{
+    width:3rem;
+    height:3rem;
+    position:fixed;
+    top:1rem;
+    right:5rem;
+    z-index:200;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+     transition:right 0.7s;
+    
+
+}
+
+.logo img{
+    width: 7rem;
+    height: 5rem;
+     position:fixed;
+     z-index:200;
+     
+} */
+/* .changed .menu-icon{
+    right:23rem;
+} */
+
+.line{
+    width: 100%;
+    height: .2rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.line{
+    background-color: rgba(0, 0 , 0, 0.8);
+}
+.changed .line1{
+    transform: rotate(45deg) 
+    translate(0.5rem,1rem);
+}
+.changed .line2{
+opacity: 0;
+visibility: hidden;
+}
+.changed .line3{
+    transform: rotate(-45deg) 
+    translate(-0.1rem,-0.7rem);
+}
+.image{
+    width: 100%;
+    /* set height of the header to 100% of the viewpoint */
+    height:100vh;
+    position: relative;
+    perspective:100rem ;
+    overflow: hidden;
+
+}
+
+.bild{
+    width: 100%;
+    height:100%;
+    background-color: (rgba(0, 0 , 0, 0.8));
+     overflow: hidden;
+}
+.bild img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    opacity: 0.6;
+    animation: scale 25s;
+
+
+}
+@keyframes scale{
+    0%{
+        transform:scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.bildtext{
+    position:absolute;
+    top:40%;
+    left:15%;
+}
+.bildtext h1{
+    font-family:'Baloo Da 2', serif;
+    font-size: 8rem;
+    font-weight: 500;
+    color: #ffffff;
+    /* width:50%; */
+    line-height: 10rem;
+    letter-spacing: 0.2rem;
+    /* text-shadow: 0.3rem .5rem rgba(0, 0, 0, 0.4);
+     opacity: 0;
+      animation: movetext 1s 0.5s forwards; */
+
+}
+.bildtext p{
+    font-family: 'josefin Slab',serif;
+    font-size:20px;
+    /* width: 50%; */
+    color: #3f3030;
+    letter-spacing: 0.1rem;
+    margin-bottom:4rem;
+     /* text-shadow: 0.3rem .5rem rgba(0, 0, 0, 0.1); */
+      /* opacity: 0;
+       animation: movetext 1s 0.7s forwards; */
+}
+.bildtext button{
+    width: 15rem;
+    height:5rem;
+    background-color: #c29525;
+    font-family: 'Muli',serif;
+    font-size: 2rem;
+    color:#ffffff;
+    cursor: pointer;;
+    border-radius: 15px;
+
+    /* opacity: 0;
+    animation: movetext 1s 0.9s
+    forwards; */
+
+}
+/* rotateY doesn't work */
+/* @keyframes movetext {
+0%{
+    transform: tranlateY(40rem)
+     rotateY(-20deg);
+}
+100%{
+    transform: translateY(0)
+    rotateY(0);
+    opacity: 1;
+}
+} */
+
+/* .menu{
+    width:30rem;
+    height:100vh;
+    position:fixed;
+    top:0;
+    right:-40rem;
+    background-color:#fff;
+   transition:right 0.5s;
+   z-index: 50;
+}
+.changed .menu{
+    right:0;
+}
+
+
+.menu-a{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.menu-b{
+    display: flex;
+    flex-direction:column ;
+    /* text-align:center;
+    
+}
+ .link{
+    font-family:"Baloo Da 2",serif ;
+    font-size:4rem;
+    color:#555;
+    margin-top: 50px;
+    position: relative;
+}
+.link::before{
+    content: attr(data-content);
+    position: absolute;
+    top:0;
+    left:0;
+    color: #c29525;
+    width:0;
+    overflow:hidden;
+     white-space: nowrap;
+     transition: width 0.3s ease-in-out;
+   
+}
+.link:hover::before{
+    width: 100%;
+} */
+
+
+.tjänster-header{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0 8rem 0;
+}
+.tjänster-h1{
+    font-family: 'Muli',serif;
+    font-size: 5rem;
+    font-weight: 300;
+    color: #4b4b4b;
+    margin-bottom: 2rem;
+}
+.underline{
+    width: 12rem;
+    height: 0.3rem;
+    background-color: #c29525;
+}
+.vårtjänster{
+    /* width: 100%;
+    background-color: #f5f5f5;
+    padding-bottom: 15rem; */
+
+    display: flex;
+     flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 5rem 10rem 5rem;
+
+}
+.kort-form{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    width: 100%;
+    margin-bottom:5rem;
+}
+/* .kort-form:hover{
+
+} */
+.kort{
+     /* width:37rem ; 
+     width:50rem ;
+     height:15rem;
+     height:40rem ;
+     */
+    /* display: flex;
+     flex-direction: row;
+    justify-content: space-evenly;  */
+    height:45rem ;
+    width:37rem ; 
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    position: relative; 
+}
+.kort-img{
+    /* display: flex;
+    flex-direction: row; */
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: 0.5rem;
+   
+}
+.kort-img img{ 
+   
+    /* width: 40rem;
+    height: 50rem; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 0.5rem;
+    
+    
+}
+.kort-info{
+    position:absolute;
+    bottom:2rem;
+    padding:2rem;
+    text-shadow:0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+.kort-info h1{
+    font-family:'baloo Da 2',serif ;
+    font-size: 4rem;
+    line-height:2.5rem;
+    font-weight: 300;
+    color:#eee;
+    margin-bottom: 22rem;
+    text-align: center;
+  
+
+}
+.kort-info p{
+    font-family:'baloo Da 2',serif ;
+    font-size: 2rem;
+    /* line-height:1.6rem; */
+    font-weight: 300;
+    color:#eee;
+    width: 80%;
+    margin-bottom: 4rem;
+   
+}
+
+.kort-info button{
+    
+    width: 10rem;
+    height: 3rem;
+    background-color: #c29525;
+    border:none;
+    font-family:'baloo Da 2',serif ;
+    font-size: 1.7rem;
+    line-height:1.5rem;
+    color:#eee;
+    border-radius:0.3rem;
+    box-shadow:0 .1rem .8rem rgba(0, 0, 0, 0.4) ;
+ 
+}
+
+.kontakt{
+     width: 100%;
+  height: 100vh;
+  /* background-color: #272727; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kontakt-form{
+     /* width: 60%; */
+  height: 75rem;
+  display: flex;
+    width: 100%;
+  flex-direction: column;
+  align-items: center;
+  /* box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5); */
+}
+.kontakt-h1{
+    /* font-family: "Baloo Da 2", serif;
+  font-size: 6rem;
+  font-weight: 300; */
+  color: #272727;
+  margin-bottom: 5rem;
+  text-align: center;
+   font-family: 'Muli',serif;
+    font-size: 5rem;
+    font-weight: 300;
+    color: #4b4b4b;
+    /* margin-top: 7rem; */
+}
+/* form{
+    margin-top: 30rem ;
+    background-color: antiquewhite;
+} */
+.input-form{
+    position: relative;
+}
+.fl{
+     width: 45rem;
+  background-color: transparent;
+  /* border: none; */
+  /* border-bottom: 0.2rem dashed #636363; */
+  margin: 1rem 0;
+  padding: 0.5rem 1rem 1rem 0;
+  font-family: "Muli", serif;
+  font-size: 1.6rem;
+  color: #4b4b4b;
+}
+.input-form input{
+     height: 4rem;
+}
+
+label{
+    font-size: 1.2rem;
+    text-align: center;
+     text-transform: uppercase;
+}
+/* .input-form textarea{
+    max-height: 7rem;
+  max-width: 45rem;
+} */
+/* .fl:focus {
+  border-bottom-style: solid;
+} */
+
+.input-form label {
+  position: absolute;
+  left: 0;
+  font-family: "Baloo Da 2", serif;
+  font-size: 1.8rem;
+  color: #4b4b4b;
+  text-transform: uppercase;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+.sub-btn{
+  width: 45rem;
+  height: 5rem;
+  text-align: center;
+  background-color: #c29525;
+  color: #fff;
+  border: none;
+  margin-top: 2rem;
+  font-family: "Muli", serif;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  /* text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3); */
+}
+
+.last{
+    width: 100%;
+  height: 5rem;
+  background-color: #e6e5de;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-size: 1.5rem;
+  margin-top: 15rem;
+}
+
+.last-content{
+    width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+/* .copy{
+      order: 1; 
+    margin-top: 3rem;
+
+} */
+
+.navbar {
+    display: flex;
+    position: fixed;
+       /* position: relative; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    align-items: center;
+   
+    background-color:white;
+    color: black;
+    width: 100%;
+    z-index: 1000;
+}
+
+.brand-title {
+    margin-right: auto;
+  
+}
+.brand-title img {
+    width: 7rem;
+    height: 5rem;
+    /* margin: .5rem; */
+   
+}
+
+.navbar-links {
+    /* height: 100%; */
+    display:flex;
+    justify-content: space-around;
+    width:40%;
+
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.navbar-links li:hover {
+
+    background-color: #555;
+    
+}
+.fas {
+     font-size: 2rem;
+     margin-right: 80px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 21px;
+}
+
+.hide-me {
+    display: none!important;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* @media(max-width:1500px){
+    .kort{
+        width:34rem;
+    }
+    .kontakt-form{
+        width:80%;
+        height: 65rem;
+    }
+    
+} */
+/* @media(max-width:1200px){
+ .kort {
+    width: 30rem;
+  }
+} */
+@media(max-width:1000px){
+    .vårtjänster{
+        padding-bottom: 5rem;
+    }
+    .kort-form{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4rem;
+    }
+    .kort{
+        margin-bottom: 8rem;
+        width: 34rem;
+}
+}
+
+
+
+@media(max-width:562px){
+
+    .navbar-links{
+        position: fixed;
+        right:-15rem;
+        height:60vh;
+        /* width:5rem; */
+        top:6.1vh;
+        background-color: #fff;
+
+    }
+    .navbar-links {
+         display: none;
+        width: 100%; 
+
+    }
+
+    .toggle-button {
+        display: flex;
+    } 
+    .navbar-links ul li {
+         align-items:center;
+        text-align: center;
+   
+    } 
+    
+    .navbar-links ul {
+        width: 100%;
+        flex-direction:column;
+        justify-self:flex-end;
+         
+       
+    }
+       .navbar-links ul li a {
+        /* padding: .5rem 1rem; */
+         width: 300px;
+        font-family:"Baloo Da 2",serif ;
+    font-size:3.5rem;
+    margin-top: 5rem;
+    position: relative;
+    
+    }  
+    .navbar-links li:hover {
+    background-color: rgb(202, 103, 103);
+}
+    .navbar-links.active {
+        display: flex;
+    }
+    
+
+     }    
+      @media(max-width:360px){
+          .image {
+    width: 70.2vh;
+    height: 90vh;
+     }
+     .bildtext {
+         top:35%;
+     }
+     .bildtext h1{
+         font-size: 4rem;
+     }
+     
+        .fl{
+          margin: 1rem 0 2rem 7rem;
+          width: 35rem;
+          margin-left:9rem;
+      }
+      .fas{
+          margin-right:10rem;
+      }
+      .toggle-button{
+          top:1rem;
+           right: 1rem;
+
+      }
+      .kort{
+        width:30rem;
+        margin-left:10rem;
+
+    }
+    
+    .sub-btn {
+    width: 30rem;
+    /* margin-right:5rem; */
+    margin-left:12rem;
+        }
+    .last{
+            font-size: 0.8rem;
+            height: 4.5rem;
+            margin-top: 20rem;
+              
+                   
+
+    }
+
+
+    }
+    @media(width:320px){
+
+    .navbar-links{
+      
+        height:70vh;
+        right:-12rem;
+    }
+       
+
+    }
+    @media(width:540px){
+
+    .navbar-links{
+        height:70vh;
+        right:-25rem;
+    }
+       
+
+    }
+     
+     
+
+       /* .navbar {
+        align-items: center;
+        justify-content: flex-end;
+        
+    }
+ 
+    .toggle-button {
+        display: flex;
+    } */
+
+    /*.navbar-links {
+         display: none;
+        width: 100%; 
+
+
+    }*/
+/* 
+    .navbar-links ul { */
+        /* width: 100%; */
+        /* flex-direction: column;
+        justify-self: flex-end;
+         
+       
+    }
+
+    .navbar-links ul li {
+         align-items:flex-start;
+        text-align: center;
+         
+   
+        
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+         width: 250px;
+    
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    
+
+}*/
