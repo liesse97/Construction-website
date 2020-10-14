@@ -29,8 +29,8 @@
         <div class="navbar-links">
 
             <ul>
-                <li><a href="index.html">Välkommen</a></li>
-                <li><a href="#tjänst">Vår tjänster</a></li>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="#tjänst">Tjänster</a></li>
                 <li><a href="#Förfrågan">Offert</a></li>
             </ul>
         </div>
@@ -50,7 +50,7 @@
                 Hos oss blir du väl omhändertagen från offert till färdigt badrum.
             </p>
             <div class="badtext">
-                <a href='index.html'>
+                <a href='#Förfrågan'>
                     <button>Offertförfrågan</button>
                 </a>
             </div>
@@ -112,6 +112,86 @@
             </div>
 
     </div>
+    </section>
+    <a name="Förfrågan"></a>
+    <section class="kontakt">
+        <div class="kontakt-form">
+            <!-- <h1 class='services-h1'>Vår tjänster</h1>
+                    <div class='underline'></div> -->
+            <!-- <div class="kontakt-left"></div>
+                    <div class="kontakt-right"> -->
+            <h1 class="kontakt-h1">Offert</h1>
+            <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                action="https://script.google.com/macros/s/AKfycbzpt-T-X7_r3izUu9IUvY8tDqvXzWxNOSVE6ui-/exec">
+                <div class="input-form">
+                    <input type="text" class="fl" name="name" placeholder="För och efternamn" />
+                    <!-- <label class="input-lb"> För och efternamn</label> -->
+                </div>
+                <div class="input-form">
+                    <input type="email" class="fl" name="email" placeholder="Email" />
+                    <!-- <label class="input-lb"> Email</label> -->
+                </div>
+
+                <div class="form-input1">
+                    <input type="text" class="fl" name="telephone" placeholder="telefon">
+                    <!-- <label for="form1">Telefon</label> -->
+                </div>
+                <div class="form-input1">
+                    <input type="text" class="fl" name="adress" placeholder="Adress">
+                    <!-- <label for="form1">Adress</label> -->
+                </div>
+                <div class="form-input1">
+                    <input type="text" class="fl" name="ort" placeholder="Postnummer,ort">
+                    <!-- <label for="form1">Postnummer,ort</label> -->
+                </div>
+                <div class="form-input1">
+                    <label for="form1">
+                        <h4>vad vill du ha hjälp med?</h4>
+                        <p class="p">välj alternativ i droplistan nedan</p>
+
+                    </label>
+                    <select id=" renovering" name="type" class="fl">
+                        <option value="renovering">Badrumsrenovering</option>
+                        <option value="renovering">Platsättning</option>
+                        <option value="renovering">VVS/El arbete</option>
+
+
+                    </select>
+
+                </div>
+                <div class="form-input1">
+                    <label for="form1">
+                        <h4>Önskad byggstart</h4>
+                        <p class="p">välj alternativ i droplistan nedan</p>
+
+                    </label>
+                    <select id=" byggstart" name="type2" class="fl">
+                        <option value="byggstart">1 månad</option>
+                        <option value="byggstart">3 månad</option>
+                        <option value="byggstart">övrigt</option>
+
+                    </select>
+
+                </div>
+                <div class="input-form">
+                    <textarea class="fl" name="message" placeholder="Meddelande"></textarea>
+                    <!-- <label class="mesg">Meddelande</label> -->
+                </div>
+
+                <!-- <fieldset class="pure-group honeypot-field">
+                            <label for="honeypot"></label>
+                            <input id="honeypot" type="text" name="honeypot" value="" />
+                        </fieldset> -->
+
+
+
+
+
+                <!-- <input typ'="submit" class="sub-btn" value="Submit" /> -->
+                <button class="sub-btn">Skicka</button>
+
+            </form>
+        </div>
     </section>
 
     <footer class="last">

@@ -12,11 +12,12 @@
 }
 .bad-img img{
   
-     /* width: 50%; */
-    /* height: 51%; */
+     /* width: 60%;
+    height: 100%; */
     width: 40rem;
     height: 50rem;
-    margin: 2rem 0 0 15rem;
+    /* margin: 2rem 0 0 15rem; */
+     padding: 10rem 4rem 0 2rem;
    
 
 }
@@ -24,13 +25,14 @@
 /* display: flex;
      flex-direction: column;
     align-items: center; */
-     margin:10rem;
+     /* margin:10rem; */
+     padding: 20rem 0 0 0 ;
      font-size: 1.7rem;
      font-family:'Baloo Da 2', serif;
      letter-spacing: 0.2rem;
-     float: right;
-      width: 50%;
-}
+     /* float: right; */
+      /* width: 50%;*/
+} 
 .id{
     display: flex;
      flex-direction: column;
@@ -90,12 +92,12 @@
 }
 
  @media(max-width:360px){
-     .icons {
+     /* .icons {
     margin-left: 30rem;
     
 }
 .about-us h1{
     margin-left: 30rem;
-}
+    
+} */
 
- }

@@ -207,26 +207,28 @@ visibility: hidden;
 } */
 
 
-.tjänster-header{
+/* .services-header{
     display: flex;
     justify-content: center; 
     flex-direction: column;
     align-items: center;
     padding: 3rem 0 8rem 0;
-}
-.tjänster-h1{
+} */
+.services-h1{
     font-family: 'Muli',serif;
     font-size: 5rem;
     font-weight: 300;
     color: #4b4b4b;
     margin-bottom: 2rem;
+    margin-top: 12rem;
+    margin-left: -3rem;
 }
 .underline{
     width: 12rem;
     height: 0.3rem;
     background-color: #c29525;
 }
-.vårtjänster{
+.services{
     /* width: 100%;
     background-color: #f5f5f5;
     padding-bottom: 15rem; */
@@ -235,7 +237,7 @@ visibility: hidden;
      flex-direction: column;
     justify-content: center; 
     align-items: center;
-    padding: 0 5rem 10rem 5rem;
+    /* padding: 0 5rem 10rem 5rem; */
 
 }
 .kort-form{
@@ -268,7 +270,7 @@ visibility: hidden;
     flex-direction: row; */
     width: 100%;
     height: 100%;
-    background-color: #262626;
+    /* background-color: #262626; */
     border-radius: 0.5rem;
    
 }
@@ -287,7 +289,8 @@ visibility: hidden;
 .kort-info{
     position:absolute;
     bottom:2rem;
-    padding:2rem;
+    padding: 0 2rem;
+    /* padding:2rem; */
     text-shadow:0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
 }
 .kort-info h1{
@@ -355,7 +358,7 @@ visibility: hidden;
     font-size: 5rem;
     font-weight: 300;
     color: #4b4b4b;
-    /* margin-top: 7rem; */
+    margin-top: 7rem;
 }
 /* form{
     margin-top: 30rem ;
@@ -410,6 +413,7 @@ label{
   color: #fff;
   border: none;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   font-family: "Muli", serif;
   font-size: 2rem;
   font-weight: 300;
@@ -455,17 +459,27 @@ label{
     width: 100%;
     z-index: 1000;
 }
-
 .brand-title {
     margin-right: auto;
   
 }
+
 .brand-title img {
-    width: 7rem;
-    height: 5rem;
-    /* margin: .5rem; */
+    width: 10rem;
+    height: 6rem;
+    margin: 0.5rem 1rem .5rem;
    
 }
+
+/* .brand-title img {
+    width: 30rem;
+    height: 16rem;
+    margin: 0.5rem 1rem .5rem;
+    z-index: 10000;
+    margin-left: 40rem;
+} */
+
+
 
 .navbar-links {
     /* height: 100%; */
@@ -474,6 +488,13 @@ label{
     width:40%;
 
 }
+/* .navbar-links {
+   
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+
+} */
 
 .navbar-links ul {
     display: flex;
@@ -492,6 +513,14 @@ label{
     padding: 2rem;
     font-size: 2rem;
 }
+
+/* .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color:black;
+    padding: 10rem;
+    font-size: 5rem;
+} */
 
 .navbar-links li:hover {
 
@@ -524,6 +553,107 @@ label{
     background-color: black;
     border-radius: 10px;
 }
+.project{
+      display: flex;
+     flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.projekt-h1{
+    
+    font-family: 'Muli',serif;
+    font-size: 5rem;
+    font-weight: 300;
+    color: #4b4b4b;
+    /* margin-bottom: 2rem;
+    margin-top: 12rem;
+    margin-left: -3rem; */
+    padding: 15rem 0 2rem 2rem;
+}
+.underline1{
+    width: 12rem;
+    height: 0.3rem;
+    background-color: #c29525;
+    margin-bottom: 3rem;
+  
+}
+
+.kort1{
+     /* width:37rem ; 
+     width:50rem ;
+     height:15rem;
+     height:40rem ;
+     */
+    display: flex;
+     flex-direction: row;
+    justify-content: space-evenly;
+    height:15rem ;
+    width:15rem ; 
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem;
+    position: relative; 
+}
+.kort-img1{
+    /* display: flex;
+    flex-direction: row; */
+ width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: 0.5rem; 
+    -webkit-box-flex:auto;
+    -ms-flex:auto;
+    flex: auto;
+    /* width: 200px; */
+    margin:.4vw;
+   
+}
+.kort-img1 img{ 
+   
+    /* width: 40rem;
+    height: 50rem; */
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 0.5rem;
+    
+    
+    
+}
+.kort-form1{
+    margin:.5vw;
+    font-size: 0;
+    display:ms-flexbox;
+    -ms-flexbox-wrap:wrap;
+    -ms-flexbox-direction: wrap;
+    -webkit-flex-flow:row wrap;
+    flex-flow: row wrap;
+    display:-webkit-box;
+    display:flex;
+
+}
+@media screen and (max-width:400px){
+    .kort-img1{
+        margin:0;
+    }
+    .kort-form1{
+        padding:0rem;
+    }
+  .projekt-h1 {
+    font-family: 'Muli',serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #4b4b4b;
+    padding: 33rem 0 2rem 2rem;
+}
+/* .kort-form1{
+  margin-left:2rem ;
+} */
+    
+}
+
+
 
 /* @media(max-width:1500px){
     .kort{
@@ -541,7 +671,7 @@ label{
   }
 } */
 @media(max-width:1000px){
-    .vårtjänster{
+    .services{
         padding-bottom: 5rem;
     }
     .kort-form{
@@ -566,6 +696,7 @@ label{
         /* width:5rem; */
         top:6.1vh;
         background-color: #fff;
+        margin-top: 2rem;
 
     }
     .navbar-links {
@@ -592,10 +723,10 @@ label{
     }
        .navbar-links ul li a {
         /* padding: .5rem 1rem; */
-         width: 300px;
+         width: 200px;
         font-family:"Baloo Da 2",serif ;
     font-size:3.5rem;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     position: relative;
     
     }  
@@ -608,41 +739,46 @@ label{
     
 
      }    
-      @media(max-width:360px){
+      @media(max-width:500px){
+          
           .image {
-    width: 70.2vh;
+    /* width: 70.2vh; */
     height: 90vh;
      }
      .bildtext {
-         top:35%;
+         width: 60%;
+         top: 35%;
+         left: 10%;
      }
      .bildtext h1{
-         font-size: 4rem;
+         font-size: 2.7rem;
      }
+
      
         .fl{
-          margin: 1rem 0 2rem 7rem;
-          width: 35rem;
-          margin-left:9rem;
+          margin: 1rem 0 2rem 2rem;
+          width: 30rem;
+          
+          /* margin-left:9rem; */
       }
       .fas{
-          margin-right:10rem;
+          /* margin-right:10rem; */
       }
       .toggle-button{
-          top:1rem;
-           right: 1rem;
+          top:3rem;
+           right: 3rem;
 
       }
       .kort{
         width:30rem;
-        margin-left:10rem;
+       /*  margin-left:10rem; */
 
     }
     
     .sub-btn {
     width: 30rem;
     /* margin-right:5rem; */
-    margin-left:12rem;
+    margin-left: 2.5rem;
         }
     .last{
             font-size: 0.8rem;
@@ -662,14 +798,17 @@ label{
         height:70vh;
         right:-12rem;
     }
-       
+    /* .bildtext{
+        top:20%;
+    }
+        */
 
     }
     @media(width:540px){
 
     .navbar-links{
         height:70vh;
-        right:-25rem;
+        right:-30rem;
     }
        
 
