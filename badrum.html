@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badrum</title>
-    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="badrum.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="plattsättning.css">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="<link href="
@@ -15,23 +17,29 @@
 
 <body>
 
-    <nav class="navbar">
-        <div class="brand-title">
-            <img href="#" src="image/logo.jpg">
 
-        </div>
+    <nav class="navbar">
+
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </a>
-        <i class="fas fa-phone-alt"> +46737804852</i>
+        <i class="fas fa-phone-alt"> 0723699698</i>
+        <div class="brand-title">
+            <img src="image/newlogo.jpg">
+
+        </div>
         <div class="navbar-links">
 
             <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="#tjänst">Tjänster</a></li>
-                <li><a href="#Förfrågan">Offert</a></li>
+                <li><a href="index.html"><strong>Hem</strong></a></li>
+
+                <!-- <li><a href="#tjänst"><strong>Tjänster</strong></a></li> -->
+
+                <li><a href="#Förfrågan"><strong>Offert</strong></a></li>
+                <li><a href="#foo"><strong>Kontakt</strong></a></li>
+
             </ul>
         </div>
     </nav>
@@ -122,7 +130,7 @@
                     <div class="kontakt-right"> -->
             <h1 class="kontakt-h1">Offert</h1>
             <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
-                action="https://script.google.com/macros/s/AKfycbzpt-T-X7_r3izUu9IUvY8tDqvXzWxNOSVE6ui-/exec">
+                action="https://script.google.com/macros/s/AKfycbxWPHnKApo74zTaxHLg9oU5uC615k6W7BOo5dO1FhPKGyTDfgg/exec">
                 <div class="input-form">
                     <input type="text" class="fl" name="name" placeholder="För och efternamn" />
                     <!-- <label class="input-lb"> För och efternamn</label> -->
@@ -151,9 +159,8 @@
 
                     </label>
                     <select id=" renovering" name="type" class="fl">
-                        <option value="renovering">Badrumsrenovering</option>
-                        <option value="renovering">Platsättning</option>
-                        <option value="renovering">VVS/El arbete</option>
+                        <option value="Badrumsrenovering">Badrumsrenovering</option>
+                        <option value="Platsättning">Platsättning</option>
 
 
                     </select>
@@ -166,9 +173,10 @@
 
                     </label>
                     <select id=" byggstart" name="type2" class="fl">
-                        <option value="byggstart">1 månad</option>
-                        <option value="byggstart">3 månad</option>
-                        <option value="byggstart">övrigt</option>
+                        <option value="1 månad">1 månad</option>
+                        <option value="2 månader">2 månader</option>
+                        <option value="3 månader">3 månader</option>
+                        <option value="övrig">övrigt</option>
 
                     </select>
 
@@ -194,17 +202,24 @@
         </div>
     </section>
 
+    <a name="foo"></a>
     <footer class="last">
         <div class="last-content">
-            <!-- <p class="ko">
-                <p>Mail:info@dg-plattsattning.se</p>
-                <p>Telefon: </p> -->
-            <p class="copy">
-                Copyright &copy; 2020, DG Plattsättning & BYGG AB - All Rights Reserved
-            </p>
-            </p>
-        </div>
+            <div class="kont">
+                <h3>KONTAKT</h3>
+                <p><strong>Email</strong>:darius.gerkys.dg@gmail.com</p>
+                <p> <strong>Telefon</strong>: 0723699698 </p>
+
+                <p class="copy">
+                    Copyright &copy; 2020, DG Plattsättning & Bygg AB - All Rights Reserved
+                    <a href="https://www.termsfeed.com/live/5c76a7c8-ea50-463f-adf7-fdb015637cca">Integritetspolicy</a>
+                </p>
+
+                </p>
+
     </footer>
+    <script src='script.js'></script>
+    <script data-cfasync="false" src="form-submission-handler.js"></script>
 
 </body>
 

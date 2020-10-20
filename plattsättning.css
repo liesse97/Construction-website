@@ -1,0 +1,10 @@
+@media(max-width:500px){
+   .brand-title img {
+    
+    margin:0 !important;
+   
+}
+}
+.last{
+  margin-top: 30rem;
+}

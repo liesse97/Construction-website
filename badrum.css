@@ -12,21 +12,21 @@
 }
 .bad-img img{
   
-     /* width: 60%;
-    height: 100%; */
-    width: 40rem;
-    height: 50rem;
+     
+    width: 42rem;
+    height: 35rem;
     /* margin: 2rem 0 0 15rem; */
-     padding: 10rem 4rem 0 2rem;
+     padding: 2rem 4rem 0 3rem;
    
 
 }
+
 .idp{
 /* display: flex;
      flex-direction: column;
     align-items: center; */
      /* margin:10rem; */
-     padding: 20rem 0 0 0 ;
+     padding: 5rem 0 0 10rem ;
      font-size: 1.7rem;
      font-family:'Baloo Da 2', serif;
      letter-spacing: 0.2rem;
@@ -90,14 +90,60 @@
 .icon {
    margin:0 3rem 0 0;
 }
+.last{
+  margin-top: 30rem;
+}
+
 
  @media(max-width:360px){
-     /* .icons {
-    margin-left: 30rem;
+      .icons {
+          display: flex; /* Gör att dom lägger sig brevid varandra – men mer om detta i morgon. */
+ flex-direction: column;
+    align-items: center;
+    padding-left: 5rem;
+     font-size: 1rem;
     
 }
 .about-us h1{
     margin-left: 30rem;
     
-} */
+}
+.bad-img img{
 
+     width: 17rem;
+    height: 20rem;
+
+}
+.idp{
+
+        padding: 5rem 0 00;
+    font-size: 0.7rem;
+     
+
+}
+.about-us h1 {
+    margin-left: 0;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+
+ }
+ .container {
+    width: 100%;
+    /* margin: 0 auto; */
+    padding: 2rem 0;
+}
+footer {
+    margin-top: 20rem;
+}
+
+ }
+ @media(max-width:768px){
+ .idp {
+    padding: 5rem 0 0 1rem;
+    font-size: 1.4rem;
+    width: 45%;
+}
+.navbar-links li a {
+    font-size: 3rem !important;
+}
+ }
